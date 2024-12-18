@@ -1,0 +1,83 @@
+
+
+.bgImg {
+    background-size: cover;
+    position: relative;
+    color: gray;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+    padding-bottom: 10vh; /* Ajustar el valor según sea necesario */
+}
+
+@media (min-width: 576px) {
+    .bgImg {
+        padding-bottom: 20vh; /* Ajustar el valor según sea necesario */
+    }
+}
+
+.EmppresaProductora2 {
+    margin-top: 6rem;}
+
+
+
+#link-1 {
+    color: white;
+    margin-top: 50px;
+    
+    text-shadow: 20px -18px rgb(14, 13, 13);
+    text-decoration: solid;
+    font-size: 4rem;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#link-2 {
+    padding-top: 5rem;
+    margin-right: 5rem;
+    text-shadow: 20px -18px lightgrey;
+    text-decoration: solid;
+    font-size: 4rem;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#link-3 {
+    background-color:  rgb(14, 13, 13);
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    padding: 100px;
+
+}
+
+.bands {
+    transition: all 0.3s;
+}
+
+.bands:hover {
+    transform: scale(1.15);
+}
+
+#texto-empresa {
+    margin: 25px;
+    padding: 50px;
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+ 
+  font-style: normal;
+   
+}
+
+body {
+    overflow-x: hidden;
+    background-color:rgb(196, 201, 200) ;
+}
+
+#footer  {
+    color: rgb(180, 212, 208);
+}
+.list-inline-item {
+    margin: 0 15px; 
+    margin-bottom: 15px;
+}
